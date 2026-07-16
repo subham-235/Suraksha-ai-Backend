@@ -17,7 +17,6 @@ const userSchema=new Schema({
     immutable:true
  },age:{
     type:Number,
-    required:false,
     min:8,
     max:99
  },role: {

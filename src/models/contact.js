@@ -34,6 +34,7 @@ const contactSchema = new Schema({
     type: String,
     trim: true,
     required: true,
+    min:10
   },
   priority:{
     type:Number,
