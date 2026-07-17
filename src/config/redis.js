@@ -11,6 +11,10 @@ const redisClient = createClient({
                 console.error("Redis: too many reconnect attempts, giving up.");
                 return new Error("Redis reconnect failed");
             }
+            
+            
+            
+            
             // exponential backoff, capped at 3s
             return Math.min(retries * 100, 3000);
         }
