@@ -9,6 +9,9 @@ const userSchema=new Schema({
     maxLength:25
  },
  emailId:{
+    
+    
+    
     type:String,
     required:true,
     unique:true,
